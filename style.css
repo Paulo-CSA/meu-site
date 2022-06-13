@@ -122,6 +122,16 @@ td{
     margin-bottom: 50px;
 }
 .lista{
-    margin-left: 50px;
-   
+    margin-left: 50px;   
+}
+.tela-login{
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+.requisitos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
