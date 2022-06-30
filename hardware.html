@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-<meta charset="UTF-8">
-<title>Meu primeiro site</title>
-<meta name="description" content="Programador
+    <meta charset="UTF-8">
+    <title>Meu primeiro site</title>
+    <meta name="description" content="Programador
 Front-End, Senai.">
-<meta name="keywords" content="HTML, CSS,
+    <meta name="keywords" content="HTML, CSS,
 JavaScript, Senai">
-<meta name="author" content="Paulo César">
-<meta name="viewport" content="Width=device-with,
+    <meta name="author" content="Paulo César">
+    <meta name="viewport" content="Width=device-with,
 initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
 </head>
-<body>    
+
+<body>
     <header>
         <div class="countainer-grid header-flex">
             <a href="index.html"><img class="logo" src="img/nintendo.png" alt="logo-site"></a>
@@ -21,7 +25,6 @@ initial-scale=1.0">
             <div class="barra">
                 <label for="Pesquisa"></label>
                 <input type="nome" class="barra-pesquisa" id="nome" name="nome" maxlength="40" required autocomplete>
-                <pre> </pre>
                 <a href="#"><img class="lupa" src="img/lupa.png" alt="lupa"></a>
             </div>
             <div class="login">
@@ -36,44 +39,132 @@ initial-scale=1.0">
 
         </div>
     </header>
-        <div class="barra-menu header-menu">
-            <nav class="menu">
-                <a href="index.html">home</a>
-                <a href="hardware.html">hardware</a>
-                <a href="software.html">Software</a>
-                <a href="perifericos.html">Perifericos</a>
-                <a href="celulares/cel_acessorios.html">Celulares</a>
-            </nav>
+    <div class="barra-menu header-menu">
+        <nav class="menu">
+            <a href="index.html">home</a>
+            <a href="hardware.html">hardware</a>
+            <a href="software.html">Software</a>
+            <a href="perifericos.html">Perifericos</a>
+            <a href="celulares/cel_acessorios.html">Celulares</a>
+        </nav>
 
-        </div>
-</header>
-<h1> Bem-vindo à página de hardware!</h1>
-<p class="titulo">Hardware diversos</p>
-<div class="tabela">
-<table style="border: 2px solid black; padding: 3px">
-    <thead>
-        <tr style="background-color: #cccccc; border:1px">
-            <th>Cursos Técnicos - SENAI</th>
-            <th>Pós-Técnico</th>
-            <th>Faculdade</th>
-            <th>Pós-Técnico</th>
-        </tr>
-    </thead>
-    <tbody> 
-        <tr>
-            <td>Front-End</td>
-            <td>Automação – Institucional</td>
-            <td>Gestão em Engenharia</td>
-            <td>Alimentos e bebidas</td>
-        </tr>
-        <tr>
-            <td>Lógica de Programação</td>
-            <td>Automação – Mecânica</td>
-            <td>Indústria 4.0</td>
-            <td>Automotiva – Elétrica</td>
-        </tr>
-    </tbody>
-</table>
-</div>
+    </div>
+    </header>
+    <section>
+        <br><br>
+        <section class="produtos">
+            <div class="container justify-content-center d-flex">
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Hardwares</h3>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\computer.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="bnt-mod btn btn-outline-danger">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\computer.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="bnt-mod btn btn-outline-danger">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\computer.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="bnt-mod btn btn-outline-danger">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\computer.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="bnt-mod btn btn-outline-danger">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\computer.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="bnt-mod btn btn-outline-danger">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\computer.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="bnt-mod btn btn-outline-danger">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\computer.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="bnt-mod btn btn-outline-danger">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\computer.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="bnt-mod btn btn-outline-danger">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>

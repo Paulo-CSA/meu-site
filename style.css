@@ -136,3 +136,16 @@ td{
     align-items: center;
     justify-content: center;
 }
+
+.card{
+    background-color: #e2d7d7;
+    text-align: center;
+    margin-top: 25px;
+
+}.bnt-mod{
+    background-color: red;
+    color: #e2d7d7;
+}
+p{
+    color: black;
+}
