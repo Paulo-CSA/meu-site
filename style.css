@@ -1,91 +1,107 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #E9E7E7;
 }
-header{
+
+header {
     background: linear-gradient(90.06deg, rgba(70, 70, 84, 0.74) 0.1%, #ED5A5A 136.16%);
-    height: 100px;        
+    height: 100px;
 }
-.header-flex{
+
+.header-flex {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
-    }
-.header-menu{
+    align-items: center;
+}
+
+.header-menu {
     display: flex;
     justify-content: center;
-    
+
 }
-.barra-menu{
+
+.barra-menu {
     background-color: #D9D9D9;
-    height: 50px;    
-}    
-.login a{
-    font-size: x-small;  
-    text-decoration: none;
-    font-size: 80%;  
+    height: 50px;
 }
-.login{    
+
+.login a {
+    font-size: x-small;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+.login {
     margin-top: -30px;
     margin-left: 80px;
 }
-.countainer-grid{
-     max-width: 1200px;
-     height: 100px;
-     margin: 0 auto;
-     align-items: center; 
- }
-.menu{ 
-    display: flex;       
-    text-decoration: none;    
-    width: 50%; 
-    height: 50px;
-    align-items:flex-end;
-    justify-content: space-between; 
-}      
-.menu a{ 
-    text-transform: uppercase;      
-    text-decoration: none; 
-    font-family:Arial, Helvetica, sans-serif; 
-    font-size:small;               
+
+.countainer-grid {
+    max-width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    align-items: center;
 }
-.logo{ 
+
+.menu {
+    display: flex;
+    text-decoration: none;
+    width: 50%;
+    height: 50px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.logo {
     width: 200px;
     height: 80px;
-   
+
 }
-.icon{
+
+.icon {
     width: 30px;
-    height: 30px;    
+    height: 30px;
 }
-.lupa{
+
+.lupa {
     width: 17px;
     height: 17px;
 }
-.icones{
+
+.icones {
     margin-top: 20px;
-    height:80px;
+    height: 80px;
     width: 30px;
     align-items: center;
-    justify-content: center;      
+    justify-content: center;
 }
-.barra{
+
+.barra {
     display: flex;
     width: 350px;
-    height: 100px;  
+    height: 100px;
     align-items: flex-end;
 }
-.barra-pesquisa{
+
+.barra-pesquisa {
     width: 500px;
     border-radius: 2px;
     height: 22px;
 }
-.marca{
+
+.marca {
     margin-left: 50px;
     display: flex;
     height: 80px;
@@ -93,59 +109,100 @@ header{
     font-style: italic;
     font-family: serif;
     font-size: large;
-    justify-content:left;
-    align-items:center;
-}   
-h1{
+    justify-content: left;
+    align-items: center;
+}
+
+h1 {
     display: flex;
     justify-content: center;
     color: blueviolet;
     margin-top: 20px;
 }
-.tabela{
+
+.tabela {
     display: flex;
-    height: 210px;     
+    height: 210px;
     justify-content: center;
-    align-items: center;     
+    align-items: center;
 }
-th{
+
+th {
     border: 1px solid grey;
     margin-left: 50px;
 }
-td{
+
+td {
     border: 1px solid #cccccc;
     margin-left: 50px;
 }
-.titulo{
+
+.titulo {
     margin-top: 15px;
     margin-left: 50px;
     margin-bottom: 50px;
 }
-.lista{
-    margin-left: 50px;   
+
+.lista {
+    margin-left: 50px;
 }
-.tela-login{
+
+.tela-login {
     display: flex;
     height: 550px;
     justify-content: center;
     align-items: center;
-    
+
 }
-.requisitos{
+
+.requisitos {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.card{
+.card {
     background-color: #e2d7d7;
     text-align: center;
     margin-top: 25px;
 
-}.bnt-mod{
+}
+
+.bnt-mod {
     background-color: red;
     color: #e2d7d7;
 }
-p{
+
+p {
     color: black;
+}
+
+.rodape {
+    background: linear-gradient(90.06deg, rgba(70, 70, 84, 0.74) 0.1%, #ED5A5A 136.16%);
+    height: 250px;
+}
+
+.countainer-grid-rodape {
+    max-width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.header-flex-rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.menu-rodape a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 39, 39);    
+}
+
+.roda-center{
+    align-items: center;
+    justify-items: center;
+    text-align: center;
 }
