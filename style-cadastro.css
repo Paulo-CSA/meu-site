@@ -1,0 +1,91 @@
+.top{
+    
+    width: 250px;
+
+}
+
+ body{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(92, 91, 91);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.container-grid {
+    width: 100vh;
+    max-width: 350px;
+    margin: 0 auto;
+   
+}
+
+.titulo{
+    margin-bottom: 30px;
+}
+
+.voltar{
+    margin-bottom: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.linha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    
+}
+
+.linha input{
+    height: 15px;
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.linha:first-of-type{
+    border-bottom:1px solid rgb(165, 101, 42);
+
+}
+
+.linha input::placeholder{
+    color: rgba(197, 197, 197, 0.767);
+}
+
+.alertas{
+    text-align: center;
+    color: rgb(75, 9, 9);
+    height: 25px;
+    
+}
+
+.entrar{
+    display: block;
+    width: 40%;
+    margin: 20px auto 0;
+    margin-top: 35px;
+    background-color: rgb(122, 124, 124);
+    border: none;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px white;
+      
+}
+.cadastro{
+    display: block;
+    width: 40%;
+    margin: 20px auto 0;
+    margin-top: 35px;
+    background-color: rgb(122, 124, 124);
+    border: none;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px white;
+     
+}

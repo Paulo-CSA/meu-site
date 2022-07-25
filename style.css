@@ -149,7 +149,7 @@ td {
 
 .tela-login {
     display: flex;
-    height: 550px;
+    height: 450px;
     justify-content: center;
     align-items: center;
 
@@ -286,4 +286,11 @@ p {
         height: 30px;
         margin-left: 25px;              
     } 
+}
+
+.alertas{
+    text-align: justify;
+    color: rgb(75, 9, 9);
+    height: 25px;
+    
 }
