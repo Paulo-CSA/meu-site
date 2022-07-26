@@ -74,7 +74,7 @@
     border: none;
     padding: 20px;
     border-radius: 25px;
-    box-shadow: 0px 0px 2px white;
+    
       
 }
 .cadastro{
@@ -86,6 +86,7 @@
     border: none;
     padding: 20px;
     border-radius: 25px;
-    box-shadow: 0px 0px 2px white;
+    box-shadow: 0px 0px 1px 0px white;
+    border-style: ridge;
      
 }
